@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>To Do List</title>
+    <meta name="description" content="Assignment To Do List">
+    <meta name="author" content="SitePoint">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- your content here... -->
+    <div id="header">
+    <h2>To Do List</h2>
+    <form id="form">
+        <label>
+            <input type="text" name="description" required placeholder="Enter a task...">
+        </label>
+        <button id="submit" type="submit">Add Task</button>
+    </form>
+    </div>
+
+
+    <div id="list">
+    <ul id="list-of-tasks"></ul>
+    </div>
+    
+
+    <script src="api-client.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
